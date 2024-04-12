@@ -27,7 +27,7 @@ def separador(lista_dados):
 
     #Criando um dataframe com as informações
     schema = {
-    'name': str,
+    'nome': str,
     'numero': str
     }
 
@@ -36,10 +36,10 @@ def separador(lista_dados):
 
 
 
+if __name__ == "__main__":
+    lista_dados = ['Pedro624.124.290-98', 'Maria314.153.692-94', 'Gabriela', 'Lucas000-000-000-01']
+    dados_separados = separador(lista_dados)
 
-lista_dados = ['Pedro624.124.290-98', 'Maria314.153.692-94', 'Gabriela']
-dados_separados = separador(lista_dados)
-
-print(dados_separados)
+    print(dados_separados)
 
     
